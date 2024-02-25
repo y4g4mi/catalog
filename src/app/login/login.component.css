@@ -29,15 +29,15 @@ a {
 }
 
 .container {
-    margin-top: 10px;
+    margin-top: 50px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
     position: relative;
     overflow: hidden;
-    width: 868px;
+    width: 968px;
     max-width: 100%;
-    min-height: 480px;
+    min-height: 580px;
 }
 
 .form-container form {
