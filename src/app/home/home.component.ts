@@ -3,12 +3,12 @@ import { NavbarComponent } from '../navbar/navbar.component';
 import { RouterOutlet } from '@angular/router';
 
 @Component({
-  selector: 'app-products',
+  selector: 'app-home',
   standalone: true,
   imports: [NavbarComponent,RouterOutlet],
-  templateUrl: './products.component.html',
-  styleUrl: './products.component.css'
+  templateUrl: './home.component.html',
+  styleUrl: './home.component.css'
 })
-export class ProductsComponent {
+export class HomeComponent {
 
 }
