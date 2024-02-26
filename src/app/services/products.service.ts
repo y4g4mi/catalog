@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { inject, Injectable } from '@angular/core';
 
-const BASE_URL='http://localhost:8083/api/daret/all';
+const BASE_URL='https://reqres.in/api/users?page=2';
 
 @Injectable({
   providedIn: 'root'

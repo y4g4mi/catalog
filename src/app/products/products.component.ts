@@ -18,9 +18,14 @@ export class ProductsComponent implements OnInit{
   }
 
 loadProducts(){
-  this.productsService.getProducts().subscribe((posts:any)=>{
-    console.log(posts);
-    this.posts=posts;
+  this.productsService.getProducts().subscribe({
+    next:(posts:any)=>{
+      this.posts=posts;
+      console.log("saf daz mzyan");
+    },
+    error:(error)=>{
+      console.log("hada mahowa hada ",error);
+    }
   });
   console.log(this.posts);
 }
